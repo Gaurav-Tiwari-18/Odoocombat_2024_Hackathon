@@ -60,6 +60,7 @@ bash
 ### *Usage*
 
 *Describe how to use the Grievance Management System:*
+![Landing Page](https://ibb.co/r3L79yY)
 
 * How to register/login as an employee, HR personnel, or administrator.
 * Steps to submit a grievance with required fields.
