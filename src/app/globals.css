@@ -1,0 +1,55 @@
+:root {
+  /* ===== Colors ===== */
+  --body-color: #f5f5f5;
+  --primary-color: #0e8cff;
+  --primary-light-color: #f6f5ff;
+  --secondary-color: #070f21;
+  --secondary-light-color: #6d7077d7;
+  --light-gray-color: rgba(7, 15, 33, 0.04);
+  --red-color: #e74926;
+  --white-color: #ffffff;
+  --bright--yellow-color: #ff9f1a;
+  --electric-pink-color: #ff3477;
+  --light-blue-color: #6248ff;
+  --cold-purple-color: #8f76ff;
+  --peach-cream-color: #ffeede;
+  --pink-lace-color: #ffdefc;
+  --bluish-cyan-color: #e4f5ff;
+  --tealish-blue-color: #dde6fe;
+  --text-color: #000000;
+  --text-white: #ffff;
+  --sidebar-bg: #ffff;
+  --sidebar-active-item-bg: #f6f6ff;
+  --board-bg: #f9fbfe;
+  --white-bg: #ffffff;
+  --light-gray-bg: #070f210f;
+
+  /* ====== Transition ====== */
+  --tran-02: all 0.2s ease;
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.4s ease;
+  --tran-05: all 0.5s ease;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--body-color);
+  transition: var(--tran-05);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

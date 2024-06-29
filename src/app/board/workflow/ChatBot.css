@@ -1,0 +1,54 @@
+/* src/workflow/ChatBot.css */
+
+.chat-bot {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chat-window {
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 16px;
+  }
+  
+  .message {
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+  }
+  
+  .message.user {
+    background-color: #f1f1f1;
+    text-align: right;
+  }
+  
+  .message.bot {
+    background-color: #e1f5fe;
+    text-align: left;
+  }
+  
+  input {
+    width: calc(100% - 50px);
+    padding: 8px;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
